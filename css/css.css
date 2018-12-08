@@ -1,7 +1,8 @@
-body{ 
+body { 
     padding:0px 0px 0px 0px;
     z-index:0;
     font-family: Noto Serif SC, Bodomi MT, Times New Roman, serif;
+    background-color: black;
 }
 
 .navbar-dark {
@@ -20,6 +21,18 @@ body{
     width: 180px;
 }
 
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item, .dropdown-item:hover {
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: gold;
+}
+
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
@@ -27,8 +40,26 @@ body{
     color: black;
 }
 
-.footer{
+.footer {
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
-    background-color: grey;
+    color: white;
+    background-color: black;
+}
+
+.footer hr {
+    color: white;
+}
+
+.footerLink {
+    color: grey;
+}
+
+.footerLink:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+h5 {
+    margin-top: 1.5rem;
 }
