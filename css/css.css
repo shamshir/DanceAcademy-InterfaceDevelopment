@@ -7,6 +7,10 @@ body {
 
 .navbar-dark {
     background-color: black;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: gold;
+    z-index:10;
 }
 
 .navbar-collapse {
@@ -41,8 +45,15 @@ body {
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: green;
-    color: black;
+    background: black;
+}
+
+#main {
+    background-color: #505652;
+}
+
+#homeCarousel {
+    padding: 1rem;
 }
 
 .footer {
