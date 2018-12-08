@@ -9,6 +9,10 @@ body {
     background-color: black;
 }
 
+.navbar-collapse {
+    font-size: 1.2rem;
+}
+
 .navbar-brand {
     padding-top: 0;
     padding-bottom: 0;
@@ -45,10 +49,6 @@ body {
     padding: 20px 0px 20px 0px;
     color: white;
     background-color: black;
-}
-
-.footer hr {
-    color: white;
 }
 
 .footerLink {
