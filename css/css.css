@@ -56,6 +56,21 @@ body {
     padding: 1rem;
 }
 
+.row-content {
+    margin:0px auto;
+    padding: 30px 0px 30px 0px;
+    border-top: 1px solid;
+    min-height:200px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: black;
+}
+
 .footer {
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
