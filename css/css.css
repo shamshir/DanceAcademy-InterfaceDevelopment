@@ -67,12 +67,20 @@ h2 {
     color: white;
 }
 
+h3 {
+    color: gold;
+}
+
 p {
     color: black;
 }
 
+.img-thumbnail {
+    max-height: 230px;
+}
+
 #scrollButton {
-    display: block;
+    display: none;
     position: fixed;
     bottom: 0;
     right: 0;
