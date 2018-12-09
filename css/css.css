@@ -63,7 +63,13 @@ body {
     min-height:200px;
 }
 
-h2 {
+.breadcrumb {
+    margin: 10px 0px 10px 0px;
+    background-color: black;
+    font-size: 1.4rem;
+}
+
+h2, h4 {
     color: white;
 }
 
@@ -102,9 +108,22 @@ p {
     color: grey;
 }
 
-.footerLink:hover {
+.footerLink:hover, .addressLink:hover {
     color: gold;
     text-decoration: none;
+}
+
+.addressContact {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.addressLink {
+    color: white;
+}
+
+.iFrameResponsive {
+    width: 100%;
 }
 
 h5 {
