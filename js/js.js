@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     /* Scroll Button management */
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 200) {
+        if ($(window).scrollTop() > 500) {
             $("#scrollButton").show();
         } else {
             $("#scrollButton").hide();
