@@ -86,8 +86,18 @@ h5 {
     font-style: italic; 
 }
 
-.img-thumbnail {
+.avatarImage {
     max-height: 230px;
+}
+
+.imageContainer {
+    margin-bottom: 25px;
+}
+
+.containedImage {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 
 #scrollButton {
