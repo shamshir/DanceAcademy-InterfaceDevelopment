@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    /* Scroll Button management */
+    /* Scroll Button Management */
     $(window).scroll(function () {
         if ($(window).scrollTop() > 500) {
             $("#scrollButton").show();
@@ -12,12 +12,12 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: 0 }, "slow");
     });
 
-    var url = "img/gallery1.jpg";
-
-    $("#superImg").click(function () {
+    /* Image Gallery Management */
+    $(document).on("click", ".containedImage", function (event) {
+        var sourceImg = $(event.target).attr("src");
         swal({
-            width: "1000px",
-            imageUrl: url,
+            width: "750px",
+            imageUrl: sourceImg,
             imageWidth: 1000,
             confirmButtonText: "Cerrar",
         });
