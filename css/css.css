@@ -69,16 +69,20 @@ body {
     font-size: 1.4rem;
 }
 
-h2, h4, .col-form-label {
+p, h2, h4, h5, .col-form-label {
     color: white;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 h3 {
     color: gold;
 }
 
-p {
-    color: black;
+h5 {
+    font-style: italic; 
 }
 
 .img-thumbnail {
@@ -133,4 +137,26 @@ p {
 
 h5 {
     margin-top: 1.5rem;
+}
+
+@media (max-width: 767px) {
+
+    #calendarDesktop {
+        display: none;
+    }
+
+    #calendarMobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    #calendarDesktop {
+        display: block;
+    }
+
+    #calendarMobile {
+        display: none;
+    }
 }
