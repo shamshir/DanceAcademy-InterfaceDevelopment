@@ -54,6 +54,7 @@ body {
 
 #homeCarousel {
     padding: 1rem;
+    z-index: 5;
 }
 
 .row-content {
