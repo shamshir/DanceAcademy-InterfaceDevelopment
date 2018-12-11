@@ -16,10 +16,12 @@ $(document).ready(function () {
     $(document).on("click", ".containedImage", function (event) {
         var sourceImg = $(event.target).attr("src");
         swal({
+            background: "black",
             width: "750px",
             imageUrl: sourceImg,
             imageWidth: 1000,
             confirmButtonText: "Cerrar",
+            confirmButtonColor: "grey",
         });
     });
 
