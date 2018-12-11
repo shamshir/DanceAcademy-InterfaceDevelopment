@@ -12,4 +12,15 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: 0 }, "slow");
     });
 
+    var url = "img/gallery1.jpg";
+
+    $("#superImg").click(function () {
+        swal({
+            width: "1000px",
+            imageUrl: url,
+            imageWidth: 1000,
+            confirmButtonText: "Cerrar",
+        });
+    });
+
 });
