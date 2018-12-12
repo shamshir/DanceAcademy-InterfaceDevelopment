@@ -74,6 +74,10 @@ p, h2, h4, h5, .col-form-label {
     color: white;
 }
 
+p {
+    text-align: justify;
+}
+
 h2 {
     font-weight: bold;
 }
@@ -103,6 +107,10 @@ h5 {
 
 .containedImage:hover {
     cursor: pointer;
+}
+
+.noPointer:hover {
+    cursor: default;
 }
 
 .centeredText {
