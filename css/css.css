@@ -112,10 +112,11 @@ h5 {
     transform: translate(-50%, -50%);
     font-size: 3rem;
     font-weight: bold;
+    text-shadow: 3px 3px black;
 }
 
 .imageLink:hover img {
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .imageLink:hover .centeredText {
