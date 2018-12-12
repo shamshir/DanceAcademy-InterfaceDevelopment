@@ -34,7 +34,7 @@ body {
     background-color: black;
 }
 
-.dropdown-item, .dropdown-item:hover {
+.backgroundBlack, .dropdown-item, .dropdown-item:hover {
     background-color: black;
 }
 
@@ -83,7 +83,8 @@ h3 {
 }
 
 h5 {
-    font-style: italic; 
+    font-style: italic;
+    margin-top: 1.5rem;
 }
 
 .avatarImage {
@@ -98,6 +99,27 @@ h5 {
     height: 300px;
     width: 100%;
     object-fit: cover;
+}
+
+.containedImage:hover {
+    cursor: pointer;
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.imageLink:hover img {
+    opacity: 0.5;
+}
+
+.imageLink:hover .centeredText {
+    color: gold;
 }
 
 #scrollButton {
@@ -144,10 +166,6 @@ h5 {
 .submitButton {
     background-color: gold;
     font-weight: bold;
-}
-
-h5 {
-    margin-top: 1.5rem;
 }
 
 @media (max-width: 767px) {
